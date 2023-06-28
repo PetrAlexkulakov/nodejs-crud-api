@@ -5,8 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "npx nodemon",
-    "start": "npm run build && node build/index",
+    "start:dev": "npx nodemon",
+    "start:prod": "npm run build && node build/index",
     "build": "npx tsc"
   },
   "repository": {
