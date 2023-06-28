@@ -59,7 +59,6 @@ const server = http.createServer((req, res) => {
       res.end(JSON.stringify(newUser));
     });
   } else if (url !== undefined && url.startsWith('/api/users/') && method === 'PUT') {
-    // Обновление пользователя по ID
     const userId = url.split('/')[3];
     const userIndex = users.findIndex((u) => u.id === userId);
 
@@ -96,7 +95,6 @@ const server = http.createServer((req, res) => {
       res.end('User not found');
     }
   } else if (url !== undefined && url.startsWith('/api/users/') && method === 'DELETE') {
-    // Удаление пользователя по ID
     const userId = url.split('/')[3];
     const userIndex = users.findIndex((u) => u.id === userId);
 
