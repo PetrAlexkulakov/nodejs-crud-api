@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "username": "user1",
+    "age": 25,
+    "hobbies": ["reading", "painting"]
+  },
+  {
+    "id": "2",
+    "username": "user2",
+    "age": 30,
+    "hobbies": ["gaming", "cooking"]
+  },
+  {
+    "id": "3",
+    "username": "user3",
+    "age": 22,
+    "hobbies": ["photography", "traveling"]
+  },
+  {
+    "id": "4",
+    "username": "user4",
+    "age": 28,
+    "hobbies": ["gardening", "sports"]
+  },
+  {
+    "id": "5",
+    "username": "user5",
+    "age": 33,
+    "hobbies": ["music", "dancing"]
+  },
+  {
+    "id": "6",
+    "username": "user6",
+    "age": 27,
+    "hobbies": ["cooking", "reading"]
+  },
+  {
+    "id": "7",
+    "username": "user7",
+    "age": 29,
+    "hobbies": ["painting", "gardening"]
+  },
+  {
+    "id": "8",
+    "username": "user8",
+    "age": 31,
+    "hobbies": ["traveling", "photography"]
+  },
+  {
+    "id": "9",
+    "username": "user9",
+    "age": 26,
+    "hobbies": ["sports", "gaming"]
+  },
+  {
+    "id": "10",
+    "username": "user10",
+    "age": 24,
+    "hobbies": ["dancing", "music"]
+  }
+]
