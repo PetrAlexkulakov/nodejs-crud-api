@@ -9,7 +9,7 @@ interface User {
   hobbies: string[];
 }
 
-const users: User[] = usersBase; //or you can type anything else
+const users: User[] = []; //or you can type usersBase
 
 const server = http.createServer((req, res) => {
   const { method, url } = req;
